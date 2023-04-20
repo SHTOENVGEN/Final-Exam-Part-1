@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c87c9;
+}
+
+h2, figcaption {
+    color: white;
+}
+
+table {
+    width: 600px;
+    background-color: lightblue;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    width: 200px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    border: 3px solid blue;
+    outline: 1px solid black;
+}
+
+td ol {
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+ol li a {
+    text-decoration: none;
+    color: black;
+}
+
+ol li a:hover {
+    color: orange;
+    transition: 1s color;
+}
+
+figcaption {
+    text-align: center;
+}
